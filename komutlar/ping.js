@@ -19,6 +19,6 @@ exports.conf = {
 exports.help = {
  name: 'ping',
  description: 'Botun Pingine Bakarsın',
- usage: '!ping'
+ usage: 'ping'
 };
  

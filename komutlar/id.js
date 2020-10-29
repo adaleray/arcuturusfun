@@ -14,5 +14,5 @@ exports.conf = {
 exports.help = {
   name : "id",
   description:"Birisinin İD Sini Alırsınız",
-  usage:"!id"
+  usage:"id"
 }

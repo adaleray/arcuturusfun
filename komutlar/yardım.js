@@ -9,7 +9,7 @@ const yardım = new Discord.MessageEmbed()
 .setAuthor("Aleria Fun yeniden sizlerle.")
 .setTitle("<a:Yldz:742698148329291826> Aleria yardım menüsüne hoşgeldin! <a:Yldz:742698148329291826>")
  .setTimestamp()
-.setDescription("<a:destinyhype:751090021859196968> **-eğlence** = __Eğlence komutlarını görüntülersiniz.__ \n <a:ayarlardestiny:751089592245158030> **-moderasyon** = __Moderasyon komutlarını görüntülersiniz.__ \n <a:partnerdestiny:751089594694631465> **-kullanıcı** = __Kullanıcı komutlarını görüntülersiniz.__ \n <a:Yldz:742698148329291826> **-logo** = __Logo komutlarını görüntülersiniz.__")
+.setDescription("<a:B_Alarm:749194316634652712> **-eğlence** = __Eğlence komutlarını görüntülersiniz.__ \n <a:B_Alarm:749194316634652712> **-moderasyon** = __Moderasyon komutlarını görüntülersiniz.__ \n <a:B_Alarm:749194316634652712> **-kullanıcı** = __Kullanıcı komutlarını görüntülersiniz.__ \n <a:B_Alarm:749194316634652712> **-logo** = __Logo komutlarını görüntülersiniz.__")
 .setImage("")
 message.channel.send(yardım)
 }
