@@ -156,7 +156,7 @@ client.on("message", async msg => {
   let a = await db.fetch(`kufur_${msg.guild.id}`)
     if (a == 'acik') {
       const küfür = [
-        "yarak","mk", "amk", "aq", "orospu", "oruspu", "oç", "sikerim", "yarrak", "piç", "amq", "sik", "amcık", "çocu", "sex", "seks", "amına", "orospu çocuğu", "sg", "siktir git","31","ananın amına yarak"
+        "yarak","mk", "amk","Anskm", "aq", "orospu", "oruspu", "oç", "sikerim", "yarrak", "piç", "amq", "sik", "amcık", "çocu", "sex", "seks", "amına", "orospu çocuğu", "sg", "siktir git","31","ananın amına yarak"
                   ]
             if (küfür.some(word => msg.content.includes(word))) {
           try {
