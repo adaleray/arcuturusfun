@@ -202,3 +202,12 @@ client.on("message", async msg => {
     });
 
 client.login(ayarlar.token)
+
+// Hoş Geldin Mesajı
+
+client.on("ready", () => {
+  client.channels.get("770191774630281226").join();
+   //Kanal id yazmayı unutmayın
+})
+
+////
