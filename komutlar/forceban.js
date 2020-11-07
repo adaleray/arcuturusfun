@@ -64,13 +64,13 @@ module.exports.run = async (client, message, args) => {
 exports.conf = {
    enabled: true,
    guildOnly: false,
-   aliases: ['force-ban'],
+   aliases: ['id-ban'],
    permLevel: 0
  
 };
  
 exports.help = {
-   name: 'forceban',
+   name: 'idban',
    description: 'Oylama yapmanızı sağlar.',
-   usage: 'forceban <id>'
+   usage: 'idban <id>'
 };
