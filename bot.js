@@ -150,30 +150,7 @@ client.on("message", async msg => {
           });    
 
 
-client.on("message", async msg => {
   
-  
-  let a = await db.fetch(`kufur_${msg.guild.id}`)
-    if (a == 'acik') {
-      const küfür = [
-        "yarak","mk", "amk","Anskm", "aq", "orospu", "oruspu", "oç", "sikerim", "yarrak", "piç", "amq", "sik", "amcık", "çocu", "sex", "seks", "amına", "orospu çocuğu", "sg", "siktir git","31","ananın amına yarak"
-                  ]
-            if (küfür.some(word => msg.content.includes(word))) {
-          try {
-            if (!msg.member.hasPermission("MANAGE_GUILD")) {
-                  msg.delete();
-                          
-                    return msg.channel.send(`Kufur Etme !`).then(msg => msg.delete(10000));
-            }              
-                } catch(err) {
-                  console.log(err);
-                }
-              }
-          }
-          if (!a) return;
-          })
-
-
 
 client.on("message", async msg => {
  
